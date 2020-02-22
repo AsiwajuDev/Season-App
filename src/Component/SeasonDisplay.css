@@ -1,0 +1,38 @@
+.icon-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.icon-right {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.season-display.winter i {
+  color: rgb(65, 65, 255);
+}
+
+.season-display.summer i {
+  color: rgba(247, 231, 8, 0.836);
+}
+
+.season-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.winter {
+  background-color: rgb(188, 207, 224);
+}
+
+.summer {
+  background-color: rgb(211, 205, 194);
+}
+
+.error {
+  background-color: red;
+}
